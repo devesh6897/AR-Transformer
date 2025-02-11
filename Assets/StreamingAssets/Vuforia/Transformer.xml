@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Transformer.Right" size="18.500000 28.360001"/>
+        <ImageTarget name="Transformer.Left" size="18.500000 28.523344"/>
+        <ImageTarget name="Transformer.Back" size="19.500000 28.464598"/>
+        <ImageTarget name="Transformer.Front" size="19.500000 28.456221"/>
+        <ImageTarget name="Transformer.Bottom" size="19.500000 18.500000"/>
+        <ImageTarget name="Transformer.Top" size="19.500000 18.500000"/>
+        <MultiTarget name="Transformer">
+            <Part name="Transformer.Left" translation="-9.75 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Transformer.Right" translation="9.75 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Transformer.Front" translation="0 0 9.25" rotation="AD: 1 0 0 0"/>
+            <Part name="Transformer.Back" translation="0 0 -9.25" rotation="AD: 0 1 0 180"/>
+            <Part name="Transformer.Top" translation="0 14.25 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Transformer.Bottom" translation="0 -14.25 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
